@@ -165,3 +165,48 @@ font-weight: 700;
 .card p{
     color: #FFF;
 }
+
+#secao-orcamento{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#form-orcamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: aliceblue;
+    max-width: 500px;
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    grid-column: 1 / 3;
+}
+
+input[type="text"],
+input[type="number"],
+select{
+    background-color: #adadbc;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"]{
+    accent-color: #55EDF2;
+}
+
+input:focus{
+    border: solid 1px slateblue;
+}

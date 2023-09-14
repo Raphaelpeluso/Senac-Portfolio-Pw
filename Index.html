@@ -79,5 +79,51 @@
         </ul>
        </section>
 
+       <section id="secao-orcamento">
+            <h2>Simule um orçamento para seu som</h2>
+
+            <form action="" id="form-orcamento">
+                <div class="campo linha">
+                    <label for="nome">Nome do artista</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div class="campo">  
+                    <label for="qtde">Qtde de musicas</label>
+                    <input type="number" min="1" id="qtde">                  
+                </div>
+                
+                <div class="campo">     
+                    <label for="tipo">Estilo</label>
+                    <select name="tipo" id="tipo">
+                        <option value="">Rap</option>
+                        <option value="">Trap</option>
+                        <option value="">acustico</option>
+                        <option value="">Boombap</option>
+                    </select>
+                </div>
+                
+                 <div class="campo linha">
+                    <label for="">Precisa de clipe</label>   
+                     <div>
+                         <input name="layout" type="radio" id="layout_sim">
+                         <label for="layout_sim">Sim preciso</label>
+                         <input name="layout" type="radio" id="layout_nao">
+                         <label for="layout_nao">Não preciso</label>
+                     </div>
+                </div>
+
+                <div class="linha">
+                    <input type="checkbox" name="" id="visu">
+                    <label for="visu">Quero um visualizer</label>
+                </div>
+                
+                <div class="campo linha">
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="" id="prazo">
+                </div>
+            </form>
+       </section>
+
 </body>
 </html>
