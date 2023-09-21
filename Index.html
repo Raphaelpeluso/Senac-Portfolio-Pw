@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rap+</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
+
 <body>
     
         <header>
@@ -69,7 +71,7 @@
                         <h3>Nada como um Dia após o Outro Dia</h3>
                         
                         <p>Jesus Chorou é uma música do grupo de rap Racionais MC's, lançada em 2002, no álbum Nada como uma dia após o outro dia. Composta por Mano Brown, tem cerca de sete minutos e mais de 150 versos. O tema começa com uma adivinha e depois narra a relação do rapper com a periferia de onde vem.</p>
-                        <a href="" class="botao">Escute</a>
+                        <a href="#" class="botao">Escute</a>
 
                     </div>
                     
@@ -96,9 +98,9 @@
                 <div class="campo">     
                     <label for="tipo">Estilo</label>
                     <select name="tipo" id="tipo">
-                        <option value="">Rap</option>
-                        <option value="">Trap</option>
-                        <option value="">acustico</option>
+                        <option value="1">Rap</option>
+                        <option value="2">Trap</option>
+                        <option value="3">acustico</option>
                         <option value="">Boombap</option>
                     </select>
                 </div>
@@ -120,8 +122,11 @@
                 
                 <div class="campo linha">
                     <label for="prazo">Prazo</label>
-                    <input type="range" name="" id="prazo">
+                    <input type="range" id="prazo" min="2" max="10">
                 </div>
+                
+                <output>R$ 100,00</output>
+                
             </form>
        </section>
 
