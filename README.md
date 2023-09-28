@@ -7,6 +7,6 @@ Site de portefólio pessoal. Projeto PW
 - [x] Apresentação
 - [x] Projetos
 - [x] Orçamento
-- [ ] Menu
+- [x] Menu
 - [ ] Responsividade
 

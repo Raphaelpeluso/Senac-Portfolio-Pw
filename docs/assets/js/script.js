@@ -32,16 +32,16 @@ function calcular() {
     //mudar para switch
     switch (campoTipo.value) {
         case "1":
-            valor += 100
+            valor += 250
             break
         case "2":
-            valor += 100
+            valor += 300
             break
         case "3":
             valor += 100
             break
         case "4":
-            valor += 100
+            valor += 200
             break
     }
     console.log(valor)
@@ -52,7 +52,7 @@ function calcular() {
     console.log(valor)
     
     if (campoVisu.checked) {
-        valor *= 1.1
+        valor *= 1.50
     }
     console.log(valor)
 
@@ -62,4 +62,3 @@ function calcular() {
     output.innerText = `R$ ${valor.toFixed(2)}`
 
 }
-    //mostrar o preço
